@@ -1,0 +1,87 @@
+.ShoppingCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.ShoppingCart__header {
+    font-size: 20px;
+    display: flex;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.ShoppingCart__header .icon-ShoppingCart {
+    margin-right: 6px;
+}
+
+.Cart__imgProduct {
+    height: 80px;
+    width: 100px;
+}
+
+.Cart__imgProduct img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.cart{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    margin-top: 12px 0;
+}
+
+.nameProduct {
+    font-weight: 500px;
+    font-size: 14px;
+}
+
+.Cart__right {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.headerCart {
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnTrash {
+    cursor: pointer;
+}
+
+.CartAdd {
+    margin-top: 15px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Cart__btnGroup {
+    display: flex;
+    height: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Cart__btnGroup .count{
+    margin: 0 6px;
+}
+
+.Cart-container {
+    margin-top: 12px;
+}

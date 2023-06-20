@@ -1,0 +1,16 @@
+.category-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-CategoryProduct {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-CategoryProduct .CategoryProduct__Name {
+    font-weight: 600;
+    font-size: 18px;
+}

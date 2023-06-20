@@ -1,0 +1,75 @@
+.InfoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.formGet-info {
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.ip_info {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 6px 0;
+}
+
+.Check__ShippingMethod {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-check-label {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.InfoBox__header {
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.formGet-info .title-form {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.InfoBox__header {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+}
+
+.form-address-customer {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+.form-address-customer #cars {
+    width: 100%;
+    margin: 4px;
+    height: 35px;
+    border-radius: 10px;
+}

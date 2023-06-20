@@ -1,0 +1,54 @@
+.SlideShow {
+    width: 1200px;
+    margin-top: 32px;
+}
+
+.SlideShow__Header {
+    margin: 12px 0;
+}
+
+.SlideShow__Block {
+    position: relative;
+    height: 400px;
+}
+
+.SlideShow__btnLeft {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: calc(50% - 20px);
+    cursor: pointer;
+}
+
+.SlideShow__btnRight {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: calc(50% - 20px);
+    cursor: pointer;
+}
+
+.SlideShow__btnRight, .SlideShow__btnLeft {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.Container-SlideShow {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1200px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.Container-SlideShow::-webkit-scrollbar {
+    display: none;
+}

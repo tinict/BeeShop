@@ -1,0 +1,26 @@
+.Footer {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5a677b;
+}
+
+.Footer__Center {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Footer__Center span {
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 600;
+}
