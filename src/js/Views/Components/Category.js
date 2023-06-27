@@ -12,12 +12,12 @@ const Category = () => {
                 </div>
                 <div className="Category__SubHeader">
                     <Breadcrumb />
-                    <FilterDropDown />    
+                    <FilterDropDown />  
                 </div>
                 <Product />
             </div> 
         </div>
-    )
+    );
 };
 
 export default Category;

@@ -1,4 +1,5 @@
 import ShoppingCart from "./ShoppingCart";
+import { useLocation } from "react-router-dom";
 
 const CartProduct = () => {
     return (

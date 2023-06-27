@@ -1,13 +1,11 @@
 import CartProduct from "../Components/CartProduct";
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import ShoppingCart from "../Components/ShoppingCart";
 
 const CartPage = () => {
     return (
-        <div className='container'>
-          <Header />
-          <CartProduct />
-        </div>
+        <>
+          <ShoppingCart />
+        </>
     )
 };
 

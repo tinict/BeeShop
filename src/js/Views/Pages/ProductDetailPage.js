@@ -4,11 +4,9 @@ import ProductDetail from "../Components/ProductDetail";
 
 const ProductDetailPage = () => {
     return (
-        <div className='container'>
-          <Header />
+        <>
           <ProductDetail />
-          <Footer />
-        </div>
+        </>
     );
 };
 

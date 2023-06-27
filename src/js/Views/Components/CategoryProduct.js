@@ -1,4 +1,5 @@
 import '../../../css/StyleComponents/CategoryProduct.css';
+import { Link } from 'react-router-dom';
 
 const CategoryProduct = () => {
     return (
@@ -8,21 +9,6 @@ const CategoryProduct = () => {
             </div>
             <div className="CategoryBlock"> 
                 <ul>
-                    <li className='item-CategoryProduct'>
-                        <a className='CategoryProduct__Name' href='#'>Áo CSGO</a>
-                    </li>
-                    <li className='item-CategoryProduct'>
-                        <a className='CategoryProduct__Name' href='#'>Áo CSGO</a>
-                    </li>
-                    <li className='item-CategoryProduct'>
-                        <a className='CategoryProduct__Name' href='#'>Áo CSGO</a>
-                    </li>
-                    <li className='item-CategoryProduct'>
-                        <a className='CategoryProduct__Name' href='#'>Áo CSGO</a>
-                    </li>
-                    <li className='item-CategoryProduct'>
-                        <a className='CategoryProduct__Name' href='#'>Áo CSGO</a>
-                    </li>
                     <li className='item-CategoryProduct'>
                         <a className='CategoryProduct__Name' href='#'>Áo CSGO</a>
                     </li>

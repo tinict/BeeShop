@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    background-color: #ffffff;
 }
 
 .formGet-info {
@@ -63,6 +64,7 @@
 
 .form-address-customer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 6px 0;
 }
@@ -72,4 +74,14 @@
     margin: 4px;
     height: 35px;
     border-radius: 10px;
+}
+
+.address-row {
+    display: flex;
+}
+
+.ip_address {
+    font-size: 14px;
+    padding: 4px;
+    border: 2px #b8b5b5 solid;
 }

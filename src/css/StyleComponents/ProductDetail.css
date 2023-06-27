@@ -1,3 +1,7 @@
+.PoductDetail {
+    width: 1200px;
+}
+
 .Container-ProductDetail {
     width: 100%;
 }
@@ -114,5 +118,16 @@
 
 .pragraph-product {
     overflow-wrap: break-word;
+}
+
+.CartIcon {
+    position: relative;
+}
+
+.TotalProduct {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
 }
 

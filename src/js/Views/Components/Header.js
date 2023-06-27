@@ -2,8 +2,33 @@ import '../../../css/StyleComponents/Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faCartShopping, faUser} from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
 
-const Header = () => {
+const Header = ({Counter_P}) => {
+    let key = JSON.parse(window.localStorage.getItem('CartProduct'));
+    console.log(key);
+    const total = () => {
+        let total = 0;
+        if (key === null)
+            return 0;
+        else {
+            return key.length;
+        }
+    };
+    // const [total, setTotal] = useState(() => {
+    //     let key = JSON.parse(window.localStorage.getItem('CartProduct'));
+    //     return key.length;
+    // });
+
+    // useEffect(() => {
+    //     updateTotal();
+    // }, []);
+  
+    // const updateTotal = () => {
+    //     let key = JSON.parse(window.localStorage.getItem('CartProduct'));
+    //     setTotal(key.length);
+    // };
+    
     return (
         <header>
             <div className='navbar'>
@@ -32,11 +57,9 @@ const Header = () => {
                         <span className='titleCart'>Cart</span>
                         <div className='CartIcon'>
                             <FontAwesomeIcon icon={faCartShopping} />
+                            <span className='TotalProduct'>{Counter_P}</span>
                         </div>
                     </Link>
-                    <a className='Account' href='#'>
-                        <FontAwesomeIcon icon={faUser} />
-                    </a>
                 </div>
             </div>
         </header>

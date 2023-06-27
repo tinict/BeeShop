@@ -9,37 +9,37 @@ const BestSeller = (DB, NameComponent) => {
         img: 'https://th.bing.com/th/id/OIP.LeJOeIPyaSgiKqaCKEQxQwHaLH?w=189&h=284&c=7&r=0&o=5&dpr=1.4&pid=1.7',
         NameCategories: 'Name Categories',
         NameProduct: 'Name0 Product',
-        MoneyProduct: 200000
+        MoneyProduct: 200001
     },
     {
         img: 'https://th.bing.com/th/id/OIP.LeJOeIPyaSgiKqaCKEQxQwHaLH?w=189&h=284&c=7&r=0&o=5&dpr=1.4&pid=1.7',
         NameCategories: 'Name Categories',
         NameProduct: 'Name1 Product',
-        MoneyProduct: 200000
+        MoneyProduct: 200002
     },
     {
         img: 'https://th.bing.com/th/id/OIP.LeJOeIPyaSgiKqaCKEQxQwHaLH?w=189&h=284&c=7&r=0&o=5&dpr=1.4&pid=1.7',
         NameCategories: 'Name Categories',
         NameProduct: 'Name2 Product',
-        MoneyProduct: 200000
+        MoneyProduct: 200003
     },
     {
         img: 'https://th.bing.com/th/id/OIP.LeJOeIPyaSgiKqaCKEQxQwHaLH?w=189&h=284&c=7&r=0&o=5&dpr=1.4&pid=1.7',
         NameCategories: 'Name Categories',
         NameProduct: 'Name3 Product',
-        MoneyProduct: 200000
+        MoneyProduct: 200004
     },
     {
         img: 'https://th.bing.com/th/id/OIP.LeJOeIPyaSgiKqaCKEQxQwHaLH?w=189&h=284&c=7&r=0&o=5&dpr=1.4&pid=1.7',
         NameCategories: 'Name Categories',
         NameProduct: 'Name4 Product',
-        MoneyProduct: 200000
+        MoneyProduct: 200005
     },
     {
         img: 'https://th.bing.com/th/id/OIP.LeJOeIPyaSgiKqaCKEQxQwHaLH?w=189&h=284&c=7&r=0&o=5&dpr=1.4&pid=1.7',
         NameCategories: 'Name Categories',
         NameProduct: 'Name5 Product',
-        MoneyProduct: 200000
+        MoneyProduct: 200006
     }];
     const ActiveSlideShow = () => {
         return {
